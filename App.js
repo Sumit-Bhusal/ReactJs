@@ -1,14 +1,8 @@
-function Profile() {
-  return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
-}
+import React from "react";
+import Nav from "./component/nav";
 
-export default function Gallery() {
-  return (
-    <section>
-      <h1>Amazing scientists</h1>
-      <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
-      <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
-      <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
-    </section>
-  );
-}
+const App = () => {
+  return <Nav />;
+};
+
+export default App;
